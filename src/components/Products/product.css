@@ -1,0 +1,31 @@
+.filter-wrapper {
+    display: flex;
+    margin: 20px;
+}
+
+.filter-wrapper>div {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.form-outline {
+    margin-right: 20px;
+}
+
+.search-wrapper {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.btn {
+    margin-right: 10px;
+}

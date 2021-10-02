@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background-color: lightgrey;
+    z-index: 1;
+
+}
+
+.title {
+    color: white;
+    margin-top: -20px;
+    color: lightcoral;
+}
+
+.title h3 {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.header .col-md-2,
+.header .col-md-3 {
+    padding-top: 15px;
+    font-weight: 700;
+}
