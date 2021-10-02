@@ -28,7 +28,9 @@ const Products = () => {
       if (data.data.products) {
         let categoryArray = [];
         data.data.products.forEach((item) => {
-          categoryArray.push(item.category.trim());
+          if (!categoryArray.includes(item.category.trim())) {
+            categoryArray.push(item.category.trim());
+          }
         });
         setCategories(categoryArray);
       }
